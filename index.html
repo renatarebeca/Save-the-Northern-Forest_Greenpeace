@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Kanit:600" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/nav-style.css">
+        <title>MAP</title>
+    </head>
+
+    <body>
+        <header>
+            <div class="row">
+                <a href="mappage.html"><img class="imgg" src="images/logo.png" alt="logo"></a>
+
+                <nav id="nav">
+                    <a href="petition.php">PETITION</a>
+                    <a id="active" style="color:#fae6cd;" href="map.html"><nobr>WORLD MAP</nobr></a>
+                    <a href="video.html">VIDEO</a>
+                    <a href="news.php">NEWS</a>
+                    <a href="contact.html">CONTACT</a>
+                </nav>
+            </div>
+        </header>
+
+        <div id="rsr" class="world-map">
+            <!-- Raphaël JS Map Here -->
+        </div>
+        <script src="jquery/raphael-min.js"></script>
+        <script src="jquery/map.js"></script>
+        <script src="jquery/popupjquery.js"></script>
+        <script src="jquery/nav-jquery.js"></script>
+
+        <!-- small popup
+<div class="popup" onclick="myFunction()">
+<div class="circle green">
+<span></span>
+</div>
+<span class="popuptext" id="myPopup">A Simple Popup!</span>
+</div>
+-->
+
+        <!--Big popup-->
+
+        <div class="box">
+            <a class="popup-button first" href="#popup1"></a>
+        </div>
+        <div id="popup1" class="overlay">
+            <div class="popup">
+                <h2>The Great Northern Forest</h2>
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+                    <h3> Save the Great Northern Forest!</h3>
+
+                    <p> Stood tall for thousands of years, and it stores more carbon in its trees and soils than all the tropical rainforests put together.
+                        In 2010, world governments agreed to take immediate action to prioritise the protection of the world's remaining forests. Despite this promise, the governments of Canada, Russia, Finland and Sweden still allow companies to destroy huge parts of the Great Northern Forest.</p>
+                    <p><a class="btn popup-read" onClick="window.open('https://act.greenpeace.org/page/3921/petition/1');">Sign petition</a></p>
+
+                </div>
+            </div>
+        </div>
+
+        <!--END BIG POPUP-->
+        <!--Big popup 2-->
+
+        <div class="box">
+            <a class="popup-button second" href="#popup2"></a>
+        </div>
+        <div id="popup2" class="overlay">
+            <div class="popup">
+                <h2>Arctic</h2>
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+                    <h3> Protect the Arctic!</h3>
+
+                    <p> Statoil, an oil company owned by the Norwegian state, plans to aggressively expand oil drilling in the melting Arctic. This oil puts our homes and families in grave danger.</p>
+                    <p><a class="btn popup-read" onClick="window.open('https://www.savethearctic.org/en/peoplevsarcticoil/?utm_campaign=Blog&utm_source=VR&utm_medium=AMS&utm_term=STA');">Sign up</a></p>
+
+                </div>
+            </div>
+        </div>
+
+        <!--END BIG POPUP 2-->
+        <!--Big popup 3-->
+
+        <div class="box">
+            <a class="popup-button third" href="#popup3"></a>
+        </div>
+        <div id="popup3" class="overlay">
+            <div class="popup">
+                <h2>Southeast Asia</h2>
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+                    <h3> Stop rainforest destruction!</h3>
+
+                    <p> Fires are across Indonesia again, turning precious rainforest into cinders and threatening endangered species such as orangutans. Haze from these fires is already drifting across to Singapore, Malaysia and other countries in Southeast Asia. One of the culprits is a palm oil exporter called IOI - they are still trading in forest destruction and hoping that the world does not notice.</p>
+                    <p> Tell IOI to start protecting rainforests.</p>
+                    <p><a class="btn popup-read" onClick="window.open('https://www.savethearctic.org/en/peoplevsarcticoil/?utm_campaign=Blog&utm_source=VR&utm_medium=AMS&utm_term=STA');">Sign up</a></p>
+
+                </div>
+            </div>
+        </div>
+
+        <!--END BIG POPUP 3-->
+        <!--Big popup 4-->
+
+        <div class="box">
+            <a class="popup-button forth" href="#popup4"></a>
+        </div>
+        <div id="popup4" class="overlay">
+            <div class="popup">
+                <h2>Amazon</h2>
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+                    <h3> Dams threaten rivers, the environment and people's lives</h3>
+
+                    <p> For Brazil, the profound impacts dams and hydropower projects can have on communities and the environment couldn’t be clearer. Here are just three recent stories of communities impacted by dams — and how they are fighting back.</p>
+                    <p><a class="btn popup-read" onClick="window.open('http://www.greenpeace.org/international/en/news/Blogs/makingwaves/in-brazil-dams-threaten-rivers-international-day-of-action-for-rivers/blog/58958/');">More info</a></p>
+
+                </div>
+            </div>
+        </div>
+
+        <!--END BIG POPUP 4-->
+        <!--Big popup 5-->
+
+        <div class="box">
+            <a class="popup-button fifth" href="#popup5"></a>
+        </div>
+        <div id="popup5" class="overlay">
+            <div class="popup">
+                <h2>Siberia</h2>
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+                    <h3> Indigenous peoples ask for your help!</h3>
+
+                    <p> When reindeer have nowhere to run...</p>
+                    <p>For hundreds of years the Khanty people of Western Siberia have lived in harmony with nature. But as the oil industry seizes more and more of their land, their animals perish in oil spills and reindeer herders are losing their last pastures. </p>
+                    <p><a class="btn popup-read" onClick="window.open('http://www.greenpeace.org/international/en/news/Blogs/makingwaves/reindeer-nowhere-to-run-indigenous-Russia-UN/blog/58970/');">More info</a></p>
+
+                </div>
+            </div>
+        </div>
+
+        <!--END BIG POPUP 5-->
+        <!--Big popup 6-->
+
+        <div class="box">
+            <a class="popup-button sixth" href="#popup6"></a>
+        </div>
+        <div id="popup6" class="overlay">
+            <div class="popup">
+                <h2>South Korea</h2>
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+                    <h3>Samsung will recycle millions of Galaxy Note 7s</h3>
+                    <p>After five months of people powered actions around the world, Samsung pulled its head out of the sand and committed to recycling the millions of Galaxy Note 7 phones it recalled! </p>
+                    <p><a class="btn popup-read" onClick="window.open('http://www.greenpeace.org/international/en/news/Blogs/makingwaves/you-did-it-samsung-will-finally-recycle-milli/blog/59045/');">More info</a></p>
+
+                </div>
+            </div>
+        </div>
+
+        <!--END BIG POPUP 6-->
+        <!--Big popup 7-->
+
+        <div class="box">
+            <a class="popup-button seventh" href="#popup7"></a>
+        </div>
+        <div id="popup7" class="overlay">
+            <div class="popup">
+                <h2>EU</h2>
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+                    <h3>Stop glyphosate!</h3>
+                    <p>Glyphosate, the main ingredient of Monsanto’s Roundup, is Europe's most heavily used weedkiller. Traces have been found in food, drinks and even in people’s urine. RIGHT NOW European leaders must take this opportunity - to protect people and the environment.</p>
+                    <p><a class="btn popup-read" onClick="window.open('https://act.greenpeace.org/page/5212/petition/1');">Sign petition</a></p>
+
+                </div>
+            </div>
+        </div>
+
+        <!--END BIG POPUP 7-->
+        <!--Big popup 8-->
+
+        <div class="box">
+            <a class="popup-button eighth" href="#popup8"></a>
+        </div>
+        <div id="popup8" class="overlay">
+            <div class="popup">
+                <h2>U.S.A</h2>
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+                    <h3>Tell US Banks: Do Not Fund Keystone XL</h3>
+                    <p>If approved the Keystone XL pipeline could carry 800,000 barrels a day of tar sands oil from Canada across the US, risking our water, environment and climate the whole way through. It will tread on the rights of Sovereign nations and private landowners.  We cannot let this happen. Banks funding pipeline projects like Dakota Access have already drawn the resistance of tens of thousands of people and protests around the world, and any financial institution associated with bankrolling the Keystone Pipeline should expect to meet similar scrutiny and opposition. </p>
+                    <p><a class="btn popup-read" onClick="window.open('https://engage.us.greenpeace.org/onlineactions/736ppk5BqU6sEf1Fv6dVKw2?&utm_source=Website&utm_medium=ActionCard&utm_campaign=170324_KXLNoBankFunding');">Take action</a></p>
+
+                </div>
+            </div>
+        </div>
+
+        <!--END BIG POPUP 8-->
+
+
+        <!--FOOTER-->
+        <div style="bottom: 0;" class="row footer">
+            <div class="footer_wrap">
+                <div class="col-sm-4 about_footer">
+                    <h3 class="contacth3"> Address </h3>
+                    <p class="prg"> Njalsgade 21 G,</p>
+                    <p class="prg"> 2300 København S,</p>
+                    <p class="prg"> Copenhagen,</p>
+                    <p class="prg"> Denmark</p>
+                </div>
+                <div class="col-sm-4 logo_footer"> 
+                    <a href="http://www.greenpeace.org/international/en/"><img class="footer_img" src="images/logo.png" alt="Footer logo"></a>
+                </div>
+                <div class="col-sm-4 about_footer">
+                    <h3 class="contacth3">Thank you for your interest! </h3>
+                    <p class="prg"> If you are a supporter </p>
+                    <p class="prg"> you can find further info</p>
+                    <p class="prg"> on freephone</p>
+                    <p class="prg"> +31 (0) 20 718 20 00 </p>
+                </div>
+            </div>
+        </div>
+        <!--END FOOTER-->
+    </body>
+</html>

@@ -1,0 +1,146 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+/* Buttons all around the website */
+.read{
+    font-size: 1.5em;
+    padding: 0.2em;
+    margin-bottom: 0px;
+    font-weight: 200;
+    border: 1px solid rgba(0,0,0,0.5);
+    background: #ABAB6F;
+    color: black;
+}
+
+.read:hover{
+    border: 1px solid rgba(0,0,0,0.5);
+    background: #FDF6EE;
+    color: #3F413C;
+}
+
+
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 200;
+	margin: 0;
+}
+
+header {
+	font-family: 'Kanit', sans-serif;
+    font-size: 1.5em;
+	padding-top: 5px;
+	align-items: center;
+	justify-content: center;
+	background-color: #3f413c;
+}
+
+nav .row {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#logo, #menu {
+	margin-left: 28px;
+}
+
+.imgg{
+    width: 20%;
+    height: 25%;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+a#logo_link {
+	padding: 0;
+}
+
+
+
+#nav a {
+	padding-left: 14px;
+	text-decoration: none;
+	color: #abab6f;
+}
+
+#nav a:hover {
+	color: #fae6cd;
+}
+
+#active .active{
+	color: #fae6cd;
+    
+}
+
+header nav {
+	justify-content: space-between;
+}
+
+nav#nav.js {
+	background-color: #3f413c;
+}
+
+.row {
+	width: 100%;
+	height: auto;
+	overflow: auto;
+}
+
+@media screen and (max-width: 768px) {
+		#menu {
+			width:1.4em;
+			display: block;
+			background:#eee;
+			font-size:1.35em;
+			text-align: center;
+		}
+		#nav.js {
+			display: none;
+		}
+		nav#nav {
+			background-color: #3f413c;
+		}
+		ul {
+			width:100%;
+			list-style:none;
+		}
+		li {
+			width:100%;
+			border-right:none;
+		}
+	}
+
+	@media screen and (min-width: 768px) {
+		#menu {
+			display: none;
+		}
+		nav#nav {
+			float: right;
+			padding: 12px 20px 16px 4px;
+			align-items: center;	
+}
+	}
+
+
+/* Video */
+
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ 	background: url('') no-repeat;
+  	background-size: cover;
+  	transition: 1s opacity;
+}
+.stopfade { 
+   opacity: .5;
+}

@@ -1,0 +1,23 @@
+h3{
+    text-transform: uppercase;
+    font-family: 'Kanit', sans-serif;
+}
+.cover-img{
+    width: 100%;
+}
+
+.section{
+    margin-bottom: 80px;
+}
+
+.petition-text{
+    background-color: #FDF6EE;
+    border: 2px solid #ABAB6F;
+    margin-top: 20px;
+}
+.country, .namelabel, .email{
+    width: 50%
+}
+.right{
+    padding-left: 100px;
+}
